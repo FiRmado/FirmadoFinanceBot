@@ -6,15 +6,15 @@ from datetime import datetime
 
 # Конфигурация для подключения к MySQL
 DB_CONFIG = {
-    'user': 'Firmado',
-    'password': 'Omega1983',
-    'host': 'Firmado.mysql.pythonanywhere-services.com',
-    'database': 'Firmado$finance_bot'
+    'user': 'user',
+    'password': 'password',
+    'host': 'user.mysql.pythonanywhere-services.com',
+    'database': 'user$database.db'
 }
 
 
 # Подключение к боту
-API_TOKEN = '5382167069:AAGNR4Io40SY6R6oDdlGoCmD8A-3rZEkPj4'
+API_TOKEN = 'TOKEN'
 bot = telebot.TeleBot(API_TOKEN)
 
 
